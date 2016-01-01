@@ -70,15 +70,14 @@ function register_user(){
 	  print_r(json_encode($data));
 	}
 	
-// register user into database
+
 function update_user(){
-$user_id=$this->input->post('id');
  $this->load->helper(array('form', 'url'));
  $this->load->library('form_validation');
-  $data = $this->savsoft_api_model->update_user($user_id);
+  $data = $this->savsoft_api_model->update_user();
 		  print_r($data);	
 	
-	}
+}
 
 
 	function remove_user(){
@@ -89,8 +88,8 @@ $user_id=$this->input->post('id');
 
 
 	function login_user(){
-	$user_id=$this->input->post('id');
-   $result = $this->savsoft_api_model->login_user($user_id);
+	$username=$this->input->post('username');
+   $result = $this->savsoft_api_model->login_user($username);
 
   
      $sess_array = array();
