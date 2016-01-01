@@ -1,0 +1,61 @@
+Copyright (c) 2013-2015, www.savsoftquiz.com ( Savsoft Technologies ).
+All rights reserved.
+
+Terms and Conditions
+
+Last updated on 20 MAY 2015. For updated terms and condition visit our website www.savsoftquiz.com
+
+This license is a legal agreement between you and Savsoft Technologies for the use
+of Savsoft Quiz Software (the “Software”).
+
+Defination:
+1) “Software” is a php code or script.
+2) US or WE is a Savsoft Technologies
+3) Our Source code is belongs to the code written by us.
+ 4) Quiz softwae is Savsoft Quiz script hosted at www.savsoftquiz.com
+
+DECLARATION and ACKNOWLEDGMENT
+Software developed in CodeIgniter php framework (Available at www.ellislab.com/codeigniter )
+Our source code is 100% open (without encryption).
+Currently two features (Web cam photo capture and result email by smtp ) is under testing phase (say beta version). we are not responsible if it does not work with any device or browsers.
+Third party code:
+Following features are developed by using third party open source code service.
+1) TinyMce Editor
+2) Google Chart
+3) WebCamjs (To provide photo capture feature) The MIT License. In config.php file you can disable this feature if not want or its license not suitable for you.
+You can read above codes usage license at their official website.
+
+By obtaining/downloading the Software you agree to comply with the terms and conditions of this license.
+
+PERMITTED USE
+You are permitted to use, modify the Software for your organization, institute, company, school, college and personal purpose.
+
+Following conditions needs to met to use this software:
+
+1. You can distribute this quiz software to any one but can not distribute any paid plugin .
+
+2. You can not sell this software or any of its plugin.
+
+3. You can not remove our powered by link without our permission (will be sent by our team in email). you can contact us for it.
+
+4. You can download this software for your client/customer if you are belongs to development firm or developer.
+
+5. You have to pay mentioned cost for installation and support service .
+Installation and support service only valid to single domain and upto 3 months.
+
+6. You can buy our plugins for extra features.
+
+7. Note: Updates will remove/replace any customization done by you or our team. we are not responsible to re-customize your script after updates.
+8. We have rights to deploy/release any code/features/fixes to our Savsoft Quiz version reported by  or designed /developed for any of our user/customer.  
+ 9. We have rights to change or update our terms and conditions for the use of our software at any time in future. it will directly implement to our quiz software  (using by you) and doesn't matter when did you download it.
+
+DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR
+IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF QUALITY, PERFORMANCE,
+NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE.
+
+LIMITATIONS OF LIABILITY
+YOU ASSUME ALL RISK ASSOCIATED WITH THE INSTALLATION AND USE OF THE SOFTWARE.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS OF THE SOFTWARE BE LIABLE
+FOR CLAIMS, DAMAGES OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION
+WITH THE SOFTWARE.WE ARE NOT RESPONSIBLE FOR ANY DEMAGE OF DATA AND EQUIPMENT.

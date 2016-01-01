@@ -1,0 +1,3 @@
+<?php
+eixt('Permission Denied!');
+?>
