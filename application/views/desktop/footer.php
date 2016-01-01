@@ -4,7 +4,7 @@ if($this->uri->segment(2) != "access_test"){
 ?>
 <br><br><a href="javascript:fontsize();" title="Change Font Size"><img src="<?php echo base_url();?>images/font-size.gif"></a>
 
-<div class="col-lg-12 col-sm-12 col-xs-12 footer1">Powered by
+<div class="col-lg-12 col-sm-12 col-xs-12 footer1" style="color: transparent">Powered by
  <a href='http://savsoftquiz.com'><b>Savsoft Quiz</b></a> </div>
 
 
