@@ -32,6 +32,9 @@
 
 <title><?php if($title){ echo $title; } ?></title>
 
+     <!-- Favicons -->
+     <link rel="shortcut icon" href="<?php echo base_url();?>logo/favicon.ico">
+
 <link rel="stylesheet" href="<?php echo base_url();?>css/style.css" type="text/css" media="screen"/>
 
 
