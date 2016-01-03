@@ -1,6 +1,13 @@
 <div id="content" class="copy"  >
 <h1> </h1><br>
-
+<style type="text/css">
+    .panel-footer{
+        background-color: #2f3239 !important;
+    }
+    .panel-heading{
+        min-height:160px;
+    }
+</style>
 
 <div class="alert alert-warning">
          
@@ -11,7 +18,7 @@ Great! You have installed Savsoft Quiz Successfully. You can <a href="http://sav
 
 <div class="row">
 
-<div class="col-lg-3 col-md-6">
+<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4  ">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
                             <div class="row">
@@ -34,7 +41,7 @@ Great! You have installed Savsoft Quiz Successfully. You can <a href="http://sav
                     </div>
 </div>
 
-<div class="col-lg-3 col-md-6">
+<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4  ">
                     <div class="panel panel-green">
                         <div class="panel-heading">
                             <div class="row">
@@ -48,7 +55,8 @@ Great! You have installed Savsoft Quiz Successfully. You can <a href="http://sav
                             </div>
                         </div>
                         <a href="<?php echo site_url('qbank');?>">
-                            <div class="panel-footer">Question Bank</span>
+                            <div class="panel-footer">
+                                <span class="pull-left">Question Bank</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                 <div class="clearfix"></div>
                             </div>
@@ -57,7 +65,7 @@ Great! You have installed Savsoft Quiz Successfully. You can <a href="http://sav
 </div>
 
 
-<div class="col-lg-3 col-md-6">
+<div class="col-lg-4 col-md-4 col-xs-12 col-sm-4  ">
                     <div class="panel panel-yellow">
                         <div class="panel-heading">
                             <div class="row">
@@ -71,7 +79,8 @@ Great! You have installed Savsoft Quiz Successfully. You can <a href="http://sav
                             </div>
                         </div>
                         <a href="<?php echo site_url('result');?>">
-                            <div class="panel-footer">Results</span>
+                            <div class="panel-footer">
+                                <span  class="pull-left">Results</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                 <div class="clearfix"></div>
                             </div>
@@ -93,7 +102,7 @@ Great! You have installed Savsoft Quiz Successfully. You can <a href="http://sav
         var data = google.visualization.arrayToDataTable(<?php echo json_encode($user_group);?>);
 
         var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
-        chart.draw(data, {width: 400, height: 240, is3D: true, title: 'Users registered in groups'});
+        chart.draw(data, {width: 400, height: 280, is3D: true, title: 'Users registered in groups'});
       }
     </script>
 	
@@ -106,14 +115,20 @@ Great! You have installed Savsoft Quiz Successfully. You can <a href="http://sav
         var data = google.visualization.arrayToDataTable(<?php echo $value;?>);
 
         var chart = new google.visualization.ColumnChart(document.getElementById('chart_div2'));
-        chart.draw(data, {width: 400, height: 240, is3D: true, colors:[{color:'#e3301d', darker:'#b01808'}],axisFontSize:12,title: 'Last 10 Results'});
+        chart.draw(data, {width: 400, height: 320, is3D: true, colors:[{color:'#e3301d', darker:'#b01808'}],axisFontSize:12,title: 'Last 10 Results'});
       }
     </script>
-	<div id="chart_div2" style="float:left;width:700px;height:300px;margin-right:20px;">
+    <div class="row" style="text-align:center;">
+    <div id="chart_div2"  class="col-sm-12 col-xs-12 col-md-12 col-lg-6" style="float:left; min-height:400px;">
 
-	</div>
-	
-	<div id="chart_div" style="float:left;"></div>
+    </div>
+    
+    <div id="chart_div"  class="col-sm-12 col-xs-12 col-md-12 col-lg-6" style="float:left; min-height:270px;">
+        
+    </div>
+    
+        
+    </div>
 	
 		 
 <div style="clear:both;"></div><br><br>

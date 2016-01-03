@@ -2,9 +2,9 @@
 <?php
 if($this->uri->segment(2) != "access_test"){
 ?>
+<br><br>
 
-<div class="col-lg-12 col-sm-12 col-xs-12 footer1" style="color: transparent">Powered by
- <a href='http://savsoftquiz.com' style="color: transparent"><b>Savsoft Quiz</b></a> </div>
+<div class="col-lg-12 col-sm-12 col-xs-12" style="text:align:right;"><a href="javascript:fontsize();" title="Change Font Size"><img src="<?php echo base_url();?>images/font-size.gif"></a>Powered by<body></body><a href='http://savsoftquiz.com'style="color:black;"><b>Savsoft Quiz</b></a> </div>
 
 
 

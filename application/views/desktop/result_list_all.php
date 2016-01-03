@@ -49,7 +49,7 @@ if($logged_in['su']=="1"){
 <input type="submit" value="Search"  class="btn btn-default" style="float:left;margin-left:10px;" ></form>  <div style="clear:both;"></div>
 </div>
 <div class="row" style="margin-top:10px;">
-                <div class="col-lg-9 col-sm-12 col-xs-12 col-md-9">
+                <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <?php if($title){ echo $title; } ?>

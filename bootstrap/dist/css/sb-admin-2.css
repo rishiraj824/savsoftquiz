@@ -37,6 +37,7 @@ body {
 
 .navbar-top-links li:last-child {
     margin-right: 15px;
+    margin-top:6px;
 }
 
 .navbar-top-links li a {
@@ -93,13 +94,16 @@ body {
 .sidebar .sidebar-search {
     padding: 15px;
 }
-
-.sidebar ul li {
-    border-bottom: 1px solid #e7e7e7;
+.sidebar ul li a.focus{
+    background-color: #EF5350 !important;
 }
-
+/*
+.sidebar ul li {
+    border-bottom: 1px solid ;
+}
+*/
 .sidebar ul li a.active {
-    background-color: #eee;
+    background-color: #e53935;
 }
 
 .sidebar .arrow {
@@ -113,7 +117,9 @@ body {
 .sidebar .active>a>.fa.arrow:before {
     content: "\f107";
 }
-
+a{
+    text-decoration: none !important;
+}
 .sidebar .nav-second-level li,
 .sidebar .nav-third-level li {
     border-bottom: 0!important;
@@ -127,12 +133,17 @@ body {
     padding-left: 52px;
 }
 
+a:hover, a:focus {
+    color: #2f3239 !important;
+    transition : 0.3s linear;
+    background: transparent !important;
+}
 @media(min-width:768px) {
     .sidebar {
         z-index: 1;
         position: absolute;
         width: 250px;
-        margin-top: 55px;
+        margin-top: 55px !important;
     }
 
     .navbar-top-links .dropdown-messages,
@@ -236,6 +247,15 @@ table.dataTable thead .sorting_asc_disabled,
 table.dataTable thead .sorting_desc_disabled {
     background: 0 0;
 }
+.facebook:hover{
+    background-color: transparent !important;    
+}
+.twitter:hover{
+    background-color: transparent !important;    
+}
+.google-plus:hover{
+    background-color: transparent !important;    
+}
 
 table.dataTable thead .sorting_asc:after {
     content: "\f0de";
@@ -300,13 +320,17 @@ table.dataTable thead .sorting:after {
 }
 
 .panel-green {
-    border-color: #5cb85c;
+    background-color: #5cb85c;
+}
+.navbar-default {
+    background-color: #ff7361 !important;
+    /* border-color: #e7e7e7; */
 }
 
 .panel-green .panel-heading {
-    border-color: #5cb85c;
-    color: #fff;
-    background-color: #5cb85c;
+    border-color: #5cb85c !important;
+    color: #fff !important;
+    background-color: #5cb85c !important;
 }
 
 .panel-green a {
@@ -322,9 +346,9 @@ table.dataTable thead .sorting:after {
 }
 
 .panel-red .panel-heading {
-    border-color: #d9534f;
-    color: #fff;
-    background-color: #d9534f;
+    border-color: #d9534f !important;
+    color: #fff !important;
+    background-color: #d9534f !important;
 }
 
 .panel-red a {
@@ -341,8 +365,8 @@ table.dataTable thead .sorting:after {
 
 .panel-yellow .panel-heading {
     border-color: #f0ad4e;
-    color: #fff;
-    background-color: #f0ad4e;
+    color: #fff !important;
+    background-color: #f0ad4e !important;
 }
 
 .panel-yellow a {

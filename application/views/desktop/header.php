@@ -21,6 +21,24 @@
 
     <!-- MetisMenu CSS -->
     <link href="<?php echo base_url();?>bootstrap/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>bootstrap-material-design-master/dist/css/bootstrap-material-design.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>bootstrap-material-design-master/dist/css/ripples.min.css" rel="stylesheet">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.7/css/bootstrap-material-design.css.map" rel="stylesheets">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.7/css/bootstrap-material-design.min.css" rel="stylesheets">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.7/js/material.js" type="text/javascript"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.7/js/material.min.js" type="text/javascript"></script>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.7/js/ripples.js" type="text/javascript"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.7/js/ripples.min.js" type="text/javascript"></script>
+
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,9 +49,6 @@
 
 
 <title><?php if($title){ echo $title; } ?></title>
-
-     <!-- Favicons -->
-     <link rel="shortcut icon" href="<?php echo base_url();?>logo/favicon.ico">
 
 <link rel="stylesheet" href="<?php echo base_url();?>css/style.css" type="text/css" media="screen"/>
 
@@ -98,7 +113,7 @@ if($this->uri->segment(2) != "access_test"){
               <!-- /.navbar-top-links -->
 
               <div class="navbar-default sidebar" role="navigation" >
-                  <div class="sidebar-nav navbar-collapse" aria-expanded="false" style="height: 1px;margin-top:8px;">
+                  <div class="sidebar-nav navbar-collapse" aria-expanded="false" >
                       <ul class="nav in" id="side-menu">
                           
                           <li>

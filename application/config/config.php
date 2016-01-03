@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://188.166.222.84/quiz/';
+$config['base_url']	= 'http://localhost/savsoftquiz_v2.0/';
 
 /*
 | number of records per page
@@ -29,7 +29,13 @@ $config['user_reg']	= true;
 /*
 | Self-registration email verification. use true or false
 */
-$config['user_veri']	= false;
+$config['user_veri']	= true;
+
+
+/*
+| Social share button of result. use true or false
+*/
+$config['social_share']	= true;
 
 
 /*

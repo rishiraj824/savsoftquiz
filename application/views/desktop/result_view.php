@@ -151,24 +151,27 @@ if($result2==true){ echo "<span style='color:red'> <a href='".site_url('result/v
 <a href="javascript:print();" class="btn btn-warning" style="margin-left:20px;">Print</a>
 
 </td>
-
+</tr>
+<tr>
 <td>
-
 <?php 
 
 if($this->config->item('social_share') == true ){ 
 ?>
+
 <ul class="sharing-buttons">
-  <li>
-  <a class="facebook"  href="https://www.facebook.com/sharer/sharer.php?u=<?php echo urlencode("Hey, I have taken this ".$result->quiz_name." quiz on  ".base_url().". My score is ".$result->score."/".(count(explode(',',$result->qids)) * $result->correct_score).". ");?>" target="_blank"><i class="fa fa-facebook-square"></i>Share on Facebook</a>
-	</li>
-  <li>
-	<a  class="twitter"  href="https://twitter.com/intent/tweet?url=&text=<?php echo urlencode("Hey, I have taken this ".$result->quiz_name." quiz on  ".base_url().". My score is ".$result->score."/".(count(explode(',',$result->qids)) * $result->correct_score).". ");?>&via=" target="_blank"><i class="fa fa-twitter-square"></i>Tweet</a>
+  <li >
+  <a class="facebook"  style="text-decoration:none !important; "href="https://www.facebook.com/sharer/sharer.php?u=<?php echo urlencode("Hey, I have taken this ".$result->quiz_name." quiz on  ".base_url().". My score is ".$result->score."/".(count(explode(',',$result->qids)) * $result->correct_score).". ");?>" target="_blank"><i class="fa fa-facebook-square"></i>Share on Facebook</a>
+  </li>
+  <li >
+  <a  class="twitter"  style="text-decoration:none !important; "href="https://twitter.com/intent/tweet?url=&text=<?php echo urlencode("Hey, I have taken this ".$result->quiz_name." quiz on  ".base_url().". My score is ".$result->score."/".(count(explode(',',$result->qids)) * $result->correct_score).". ");?>&via=" target="_blank"><i class="fa fa-twitter-square"></i>Tweet</a>
  </li>
-  <li>
- 		<a class="google-plus" href="https://plus.google.com/share?url=<?php echo urlencode(base_url());?>" target="_blank"><i class="fa fa-google-plus-square"></i>Share on Google+</a>
+  <li >
+    <a class="google-plus" style="text-decoration:none !important; "href="https://plus.google.com/share?url=<?php echo urlencode(base_url());?>" target="_blank"><i class="fa fa-google-plus-square"></i>Share on Google+</a>
  </li>
 </ul>
+
+
 <?php 
 }
 ?>
@@ -202,7 +205,33 @@ if($this->config->item('social_share') == true ){
         chart.draw(data, options);
       }
     </script>
-		 <div id="chart_div" style="width: 800px; height: 500px;"></div>
+    <div class="container-outer">
+   <div class="container-inner">
+        <div id="chart_div" style="width: 800px; height: 500px;"></div>
+   </div>
+</div>
+<style type="text/css">
+.container-outer { width: 100%; height: 550px; overflow-x: auto;    overflow-y: hidden;}
+.container-inner { width: 850px; }
+::-webkit-scrollbar-track
+{
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+ border-radius: 10px;
+ background-color: #F5F5F5;
+}
+::-webkit-scrollbar
+{
+ width: 12px;
+ background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb
+{
+ border-radius: 10px;
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+ background-color: #555;
+}
+</style>
+		 
 <!-- google chart ends -->
 
 
@@ -223,7 +252,13 @@ if($this->config->item('social_share') == true ){
         chart.draw(data, options);
       }
     </script>
-		 <div id="chart_div2" style="width:800px; height: 500px;"></div>
+    <div class="container-outer">
+<div class="container-inner">
+  <div id="chart_div2" style="width:800px; height: 500px;"></div>
+
+   </div>
+</div>
+		 
 <!-- google chart ends -->
 
 
@@ -243,7 +278,14 @@ if($this->config->item('social_share') == true ){
         chart.draw(data, options);
       }
     </script>
-		 <div id="chart_div3" style="width: 800px; height: 500px;"></div>
+    <div class="container-outer">
+<div class="container-inner">
+     <div id="chart_div3" style="width: 800px; height: 500px;"></div>
+</div>
+</div>
+     
+
+
 <!-- google chart ends -->
 
 

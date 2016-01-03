@@ -20,12 +20,12 @@ if($value !='[["Quiz Name","Percentage (%)"]]'){
       }
     </script>
 		 <div class="container-outer">
-   <div class="container-inner">
+   <div class="container-inner" style="left:0;right:0;">
         <div id="chart_div" style="width: 850px; height: 500px;"></div>
    </div>
 </div>
 <style type="text/css">
-.container-outer { width: 100%; height: 650px; overflow-x: scroll;    overflow-y: hidden;}
+.container-outer { width: 100%; height: 650px; overflow-x: auto;    overflow-y: hidden;}
 .container-inner { width: 900px; }
 ::-webkit-scrollbar-track
 {
