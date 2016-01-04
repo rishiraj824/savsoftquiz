@@ -1,0 +1,41 @@
+/*========================
+		team section
+=========================*/
+body{
+	font-family: 
+}
+.team-section {
+	padding-top: 100px;
+	padding-bottom:90px;
+}
+.team-box {
+	background-color: #fff;
+	border: 10px #f8f5f0 solid;
+	padding-bottom: 20px;
+	margin-top:10px;
+}
+.team-box img {
+	opacity:.6;
+	width:100%;
+}
+.team-box img:hover {
+	opacity:.8;
+	width:100%;
+}
+.team-text {
+	padding-left:10px;
+	padding-right:10px;
+}
+.team p {
+	margin-top:10px;
+}
+.team {
+	color:#564d4b;
+}
+.team-page {
+	padding-top: 30px;
+	padding-bottom:90px;
+}
+.development-team, .admin-team {
+	margin-top:90px;
+}
