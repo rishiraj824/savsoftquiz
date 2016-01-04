@@ -43,16 +43,7 @@
                                         <input name="remember" type="checkbox" value="Remember Me">Remember Me
                                         -->
                                    
- <a style="color:#158cba;"href="<?php echo site_url('login/forgot/');?>">Forgot Password?</a> &nbsp;&nbsp;&nbsp;&nbsp;
 
- <?php
-if($this->config->item('user_reg')){
-
-?>
-<span style="float:right;margin-right:20px;"><a style="color:#158cba !important"href="<?php echo site_url('login/register/');?>">Sign up</a></span>
-<?php
-}
-?>
                                     </label>
                                 </div>
                                 <!-- Change this to a button or input when using this as a form -->
