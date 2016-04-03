@@ -50,7 +50,12 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
-$db['default']['password'] = 'HALFpast12';
+if($_SERVER['HTTP_HOST']=='localhost'){
+	$db['default']['password'] = '';
+}
+else{
+	$db['default']['password'] = 'HALFpast12';
+}
 $db['default']['database'] = 'quiz';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';

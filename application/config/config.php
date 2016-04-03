@@ -14,7 +14,10 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://188.166.222.84/quiz/';
+
+$baseURL = explode('/',$_SERVER['REQUEST_URI']);
+$baseURL=array_slice($baseURL,0,array_search('quiz',$baseURL)+1);
+$config['base_url']	= 'http://'.$_SERVER['HTTP_HOST'].implode('/',$baseURL);
 
 /*
 | number of records per page
