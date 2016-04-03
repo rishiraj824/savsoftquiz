@@ -54,7 +54,7 @@ if($_SERVER['HTTP_HOST']=='localhost'){
 	$db['default']['password'] = '';
 }
 else{
-	$db['default']['password'] = 'HALFpast12';
+	$db['default']['password'] = 'snudevelopers@123';
 }
 $db['default']['database'] = 'quiz';
 $db['default']['dbdriver'] = 'mysql';
