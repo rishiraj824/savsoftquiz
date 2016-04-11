@@ -1,5 +1,5 @@
-// update base url ( http://localhost/savsoftquiz/ ). include slash at end
-var base_url = 'http://'+window.location.host+window.location.pathname.split('/').slice(0,window.location.pathname.split('/').indexOf('quiz')+1).join('/')+'/';
+ var base_url = 'http://localhost/savsoftquiz/';
+//var base_url = 'http://'+window.location.host+window.location.pathname.split('/').slice(0,window.location.pathname.split('/').indexOf('quiz')+1).join('/')+'/';
 
 var comnt_id="0";
 $(document).ready(function(){

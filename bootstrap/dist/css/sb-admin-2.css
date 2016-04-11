@@ -7,7 +7,6 @@
 body {
     background-color: #f8f8f8;
 }
-
 #wrapper {
     width: 100%;
 }
@@ -103,7 +102,7 @@ body {
 }
 */
 .sidebar ul li a.active {
-    background-color: #e53935;
+    background-color: #2f3239;
 }
 
 .sidebar .arrow {
@@ -134,7 +133,7 @@ a{
 }
 
 a:hover, a:focus {
-    color: #2f3239 !important;
+    opacity: 0.8 !important;
     transition : 0.3s linear;
     background: transparent !important;
 }
@@ -323,7 +322,7 @@ table.dataTable thead .sorting:after {
     background-color: #5cb85c;
 }
 .navbar-default {
-    background-color: #ff7361 !important;
+    background-color: #01579B !important;
     /* border-color: #e7e7e7; */
 }
 

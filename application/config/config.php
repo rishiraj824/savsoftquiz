@@ -17,7 +17,8 @@
 
 $baseURL = explode('/',$_SERVER['REQUEST_URI']);
 $baseURL=array_slice($baseURL,0,array_search('quiz',$baseURL)+1);
-$config['base_url']	= 'http://'.$_SERVER['HTTP_HOST'].implode('/',$baseURL).'/';
+//$config['base_url']	= 'http://'.$_SERVER['HTTP_HOST'].implode('/',$baseURL).'/';
+$config['base_url']	= 'http://localhost/savsoftquiz/';
 
 /*
 | number of records per page

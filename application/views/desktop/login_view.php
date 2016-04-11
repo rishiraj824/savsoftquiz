@@ -11,12 +11,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
-                <div class="login-panel panel panel-default">
+                <div class="login-panel panel panel-default black-panel">
                     <div class="panel-heading">
                         <h1 class="panel-title">Log In</h1>
                     </div>
 
-    <center>
+    <center style="background: #333; padding-bottom: 5px;">
 <img src="<?php echo base_url();?>logo/<?php echo $logo; ?>" title="Logo">
 </center>
                
